@@ -1,0 +1,197 @@
+
+@charset "UTF8";
+
+@font-face {
+    font-family: droid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: rgb(138, 224, 138);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+}
+.p1>a{
+    text-decoration: none;
+    color: rgb(6, 72, 40);
+    font-size: large;
+    font-weight: bold;
+}
+    
+    
+
+.p2>a{
+    text-decoration: none;
+     color: rgb(6, 72, 40);
+     font-size: large;
+     font-weight: bold;}
+
+.p3>a{
+    text-decoration: none;
+    color: rgb(6, 72, 40);
+    font-size: large;
+    font-weight: bold;}
+
+.p4>a{
+     text-decoration: none;
+    color: rgb(6, 72, 40);
+    font-size: large;
+    font-weight: bold;}
+
+header{
+    display: block;
+    background-image: linear-gradient(rgb(113, 219, 113),rgb(25, 58, 25));
+    color:white;
+    margin: -10px;
+    width: auto;
+    border: 10px white;
+    padding: 30px 10px 20px 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.292);
+    
+
+}
+header>h1{
+    
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+}
+header>p {
+    text-align: center;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+nav{
+   padding: 3px;
+   margin-top: 10px;
+    
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+nav >a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+    background-color: rgba(52, 55, 56, 0.281);
+    box-shadow:  15px 15px 15px 15px rgba(32, 33, 34, 0.379);
+    border-radius: 0px 15px ;
+
+}
+nav >a:active{
+    color: chartreuse;
+}
+main{
+    display:block;
+    background-color: white;
+    padding: 20px;
+    max-width: 1100px;
+    min-width: 250px;
+    margin: 11px 201px 11px 201px;
+    border-radius: 20px;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.292);
+    
+}
+article>p{
+    text-align: justify;
+    text-indent: 30px;
+}
+section > h1{
+    text-align:justify;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgb(33, 106, 33);
+    font-family: 'droid',Arial, Helvetica, sans-serif;
+}
+section>h2{
+    color:  rgb(52, 113, 52);
+    background-image:linear-gradient(to right,rgba(147, 213, 183, 0.614),white);
+}
+
+
+#bug>img{
+    display: block;
+    margin:auto;
+    image-rendering: auto;
+    max-width: 350%;
+}
+.dan>img{
+    width: 100%;
+}
+.irina>img{
+    width: 100%;
+}
+.video{
+    background-color: rgb(3, 54, 3);
+    margin: auto  ;
+    padding: 30px 16px 30px 16px;
+    border: 20px;
+    outline-color: gray;
+    outline: 20px;
+    max-width: 100%;
+
+}
+.video>.vi{
+    border: 20px;
+    width: 100%;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+
+}
+.vi> iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+.aprender{
+    background-color: rgb(177, 245, 212);
+    padding: 0px 10px 5px 10px;
+    border-radius: 11px 11px 0px 0px ;
+    box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.315);
+}
+.aprender>h2{
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(31, 132, 63, 0.578);
+    color: white;
+    margin: 10px -10px 10px -10px ;
+    padding: 15px 30px 15px 15px;
+    border-radius:11px 11px 1px 1px;
+    box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.315);
+}
+.aprender>p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.aprender>.prilis{
+    list-style-image: url(pacote-projeto-d010/imagens/Microsoft-Fluentui-Emoji-Mono-Check-Mark.16.png);
+    text-decoration: underline;
+    columns: 2;
+
+}
+.prilis>li:hover{
+    color: rgb(27, 138, 235);
+}
+
+
+
+.final>p{
+    text-align: justify;
+    text-indent: 30px;
+}
+footer{
+    background-color: rgb(1, 57, 1);
+    text-align: center;
+    color: white;
+}
